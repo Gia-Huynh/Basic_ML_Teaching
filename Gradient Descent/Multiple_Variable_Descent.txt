@@ -1,0 +1,8 @@
+Original: 2x + 2sin(x)
+Original: w1*x+ w2*sin(x)
+
+MSE Loss: (Y-2x-2sin(x))^2
+MSE Loss: (Y-w1*x-w2sin(x))^2
+
+w1 Derivative: -2*x*(Y-w1*x-w2*sin(x))
+w2 Derivative: -2*sin(x)(Y-w1*x-w2*sin(x))
