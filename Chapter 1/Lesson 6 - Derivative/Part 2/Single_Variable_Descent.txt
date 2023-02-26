@@ -1,0 +1,4 @@
+Original: 3X^2
+Original: w*x^2
+MSE Loss: (Y-w*x^2)^2
+w Derivative: -2*(Y-w*x^2)*x^2

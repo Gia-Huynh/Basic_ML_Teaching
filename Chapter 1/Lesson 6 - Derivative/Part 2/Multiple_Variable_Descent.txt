@@ -1,0 +1,26 @@
+Original: 2x + 2sin(x)
+Original: w1*x+ w2*sin(x)
+MSE Loss: (Y-2x-2sin(x))^2
+MSE Loss: (Y-w1*x-w2sin(x))^2
+w1 Derivative: -2*x*(Y-w1*x-w2*sin(x))
+w2 Derivative: -2*sin(x)(Y-w1*x-w2*sin(x))
+
+MAE Loss: abs(Y-w1*x-w2sin(x))
+
+
+
+
+
+
+
+
+
+
+
+
+L Derivative: 2*(-2-2cos(x))*(Y-2x-2sin(x))
+L Derivative: 2*(-w1-w2cos(x))*(Y-w1*x-w2sin(x))
+w1 Derivative: 2*w1*(w1)
+w2 derivative: -w2*cos(x)
+random.......
+4x + 3sin(x)
